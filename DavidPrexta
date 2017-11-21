@@ -1,7 +1,14 @@
 new_ems_path                        ems_swift_controller.rb:26-27
+	alive - called in app/controllers/mixins/ems_common_angular.rb on line 185. Mixxin included in ems_swift_controller.rb 
 identify_isd_datastore              pxe_controller/iso_datastores.rb:239-245
+	dead
 ap_vm_edit                          ops_controller/settings/analysis_profiles.rb:212-215
+	alive - called in app/controllers/ops_controller.rb on line 62. Included from ops_controller/setting.rb
 tags_for_display_filters            application_controller/filter/expression.rb:59-67
+	alive - called in app/views/layouts/exp_atom/_edit_tag.html.haml line 8
 iso_datastore_refresh               pxe_controller/iso_datastores.rb:91-93
+	alive - called in app/controllers/pxe_controller.rb on line 24. Include on line 6:  include_concern 'IsoDatastores' 
 new_ems_path                        ems_storage_controller.rb:26-27
+	alive - alive - called in app/controllers/mixins/ems_common_angular.rb on line 185. Mixxin included in ems_storage_controller.rb
 iso_datastore_new                   pxe_controller/iso_datastores.rb:17-22
+	alive = called in app/controllers/pxe_controller.rb on line 23. Included on line :  include_concern 'IsoDatastores'
