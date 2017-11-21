@@ -1,7 +1,20 @@
 display_ems_clusters                ems_common.rb:68-69
+dead
+
 options4                            report_controller/pivot_options.rb:24-26
+alive - called from _widget_columns.html.haml
+
 dialog_copy                         miq_ae_customization_controller/dialogs.rb:113-128
+alive - called from miq_ae_customization_controller.rb
+
 validate_before_save?               automation_manager_controller.rb:168-169
+alive - called from _form_buttons_verify_angular.html.haml
+
 validate_before_save?               provider_foreman_controller.rb:191-192
+alive - called from _form_buttons_verify_angular.html.haml
+
 old_dialogs_delete                  miq_ae_customization_controller/old_dialogs.rb:138-140
+alive - called from miq_ae_customization_controller.rb
+
 miq_report_save                     report_controller/reports.rb:24-34
+dead
