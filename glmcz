@@ -1,7 +1,27 @@
 rbac_user_add                       ops_controller/ops_rbac.rb:34-36
+pouzity ag a naslo 2 volani app/controllers/ops_controller.rb a v app/helpers/application_helper/toolbar/users_center.rb
+metoda je definovana v app/controllers/ops_controller/ops_rbac.rb
+
 add_vm_to_service                   vm_common.rb:686-700
-ems_path                            ems_network_controller.rb:21-23
-ems_path                            ems_storage_controller.rb:21-23
-profile_toggle                      application_controller/policy_support.rb:130-147
-miq_report_delete                   report_controller/reports.rb:82-106
-refresh_audit_log                   ops_controller/diagnostics.rb:192-200
+definovana v app/controllers/vm_common.rb a pouzita v app/views/vm_common/_add_to_service.html.haml
+Alive
+ems_path                            ems_network_controller.rb:21-23 maybe dead
+ems_path                            ems_storage_controller.rb:21-23 Alive
+ tady je definovana a znovu upravena je v app/controllers/configuration_job_controller.rb
+odkud vola metodu ems_configprovider_path jenz pomoci ag "fullnameMethod" nenaslo zadne dalsi pouziti, ale pokud jsem dal ag _path naslo pouziti v 
+app/helpers/application_helper.rb  takto respond_to?("#{model.model_name.route_key}_path") 
+ems_path definovana v app/controllers/ems_object_storage_controller.rb odpovida volani v app/controllers/mixins/ems_common_angular.rb
+ tady je pouzita ems_path a new_ems_path. Bohuzel to nelze rici v pripade app/controllers/configuration_job_controller.rb
+
+profile_toggle                      application_controller/policy_support.rb:130-147 Dead
+nenasel jsem nikde jeji volani pouze 2 deklarace v app/controllers/vm_common.rb a  application_controller/policy_support.rb:130-147
+a zkousel jsem i \\bprofile_# 
+
+miq_report_delete                   report_controller/reports.rb:82-106 Alive
+po zadani ag miq_report_delete se mi zobrazil hodne dlouhy radek s ruznyma hlaskami v ruznych jazycich podle me je to test na
+zpravy co se pouzivaji v Gui 
+
+refresh_audit_log                   ops_controller/diagnostics.rb:192-200 Alive
+def => app/controllers/ops_controller/diagnostics.rb
+usage => app/controllers/ops_controller.rb
+49:    'refresh_audit_log'         => :refresh_audit_log,
