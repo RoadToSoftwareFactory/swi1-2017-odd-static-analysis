@@ -1,6 +1,7 @@
 ems_path                            ems_physical_infra_controller.rb:21-22
 	alive - called from EmsPhysicalInfraController#show_link
 display_config_info                 host_controller.rb:16-24
+	maybe alive - from textual_vmm_info.rb, helpers/textual_mixins/textual_os_info.rb
 category_select                     ops_controller/settings/tags.rb:5-10
 ems_path                            ems_cloud_controller.rb:21-22
 	alive - called from EmsCloudController#show_link
