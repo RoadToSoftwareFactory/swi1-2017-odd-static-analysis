@@ -1,7 +1,20 @@
 ems_path                            ems_container_controller.rb:34-35
+undead_method, called from ems_container_controller.rb#ems_path(ems.id, options), row 131
+
 new_ems_path                        ems_physical_infra_controller.rb:25-26
+undead_method, called from mixins/ems_common_angular.rb#:url  => new_ems_path), row 185
+
 new_ems_path                        ems_datawarehouse_controller.rb:34-35
+undead_method, called from mixins/ems_common_angular.rb#:url  => new_ems_path), row 185
+
 detach_finished                     vm_cloud_controller.rb:132-156
+undead_method, called from vm_cloud_controller.rb#initiate_wait_for_task(:task_id => task_id, :action => "detach_finished"), row 120 
+
 miq_report_schedule_run_now         report_controller/schedules.rb:93-117
+undead_method, called from report_controller.rb#'miq_report_schedule_run_now' => :miq_report_schedule_run_now, row 43
+ 
 display_physical_servers_with_host  ems_physical_infra_controller.rb:49-50
+dead
+
 ab_create_update                    application_controller/buttons.rb:175-179
+dead
