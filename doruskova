@@ -1,7 +1,14 @@
 new_ems_path                        ems_container_controller.rb:38-39
+	nondead - it is used as a route
 process_host_provide                mixins/actions/host_actions/misc.rb:126-132
+	dead - not called anywhere
 build_windows_image_grid            application_controller/miq_request_methods.rb:336-345
+	dead - method is defined but unused/not called  anywhere
 deletedialogs                       miq_ae_customization_controller/old_dialogs.rb:5-6
+	dead - method is defined but not called anywhere
 deletemethods                       miq_ae_class_controller.rb:1999-2017
+	nondead - called in miq_ae_method_delete
 detach_finished                     cloud_volume_controller.rb:182-207
+	nondead - called in detach_volume
 ems_path                            configuration_job_controller.rb:19-20
+	dead - controller does not use Mixin EmsCommonAngular
