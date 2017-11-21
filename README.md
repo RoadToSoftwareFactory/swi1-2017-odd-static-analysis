@@ -1,0 +1,1 @@
+# swi1-2017-odd-static-analysis
