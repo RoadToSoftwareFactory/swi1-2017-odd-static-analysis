@@ -1,7 +1,25 @@
 hosts_list                          infra_networking_controller.rb:158-183
+	MRTVA => Myslim si, ze je mrtva. Jeji jediny vyskyt je pri jeji deklaraci. V IntelliJ Idea jsem prosel vsechny vyskyty s regexem: "hosts_.*" a nic mi nepripadalo, jako volani takove fce.
+
 update_finished                     cloud_subnet_controller.rb:185-199
+	ZIVA => V tom stejnem souboru na radku 168 je jeji volani :action => "update_finished")
+
 create_finished                     cloud_subnet_controller.rb:91-106
+	ZIVA => V tom stejnem souboru na radku 74 je jeji volani :action => "create_finished")
+
 create_finished                     cloud_volume_controller.rb:266-284
+	ZIVA => V tom stejnem souboru na radku 237 je jeji volani :action => "create_finished")
+
 ems_swift_form_fields               ems_swift_controller.rb:30-31
+	MRTVA => Je to controller, takze Mixin nepripada v uvahu. Zadny jiny kontroler z toho nededi. Zkousel jsem prohledat regexama: "ems.*_fields", "ems_#.*_fields", "ems_fields"
+	Pri regexu: "ems_#.*" jsem nasel spoustu vysledku typu : controller = "ems_#{$1.underscore}"
+								 provider = FactoryGirl.create("ems_#{t}".to_sym) 
+	To nevim co znamena :-(
+	
+
 create_finished                     security_group_controller.rb:85-103
+	ZIVA => V tom stejnem souboru na radku 74 je jeji volani :action => "create_finished")
+
 fltr                                application_controller/timelines/options.rb:105-108
+	MRTVA => fltr je volano puze v jednom filu: bottlenecks_controller.rb a neni to jmeno funkce, ale nejaka promenna, pres kterou se provadi .each
+
