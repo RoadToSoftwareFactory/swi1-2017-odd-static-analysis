@@ -1,4 +1,5 @@
 ems_path                            ems_physical_infra_controller.rb:21-22
+	alive - called from EmsPhysicalInfraController#show_link
 display_config_info                 host_controller.rb:16-24
 category_select                     ops_controller/settings/tags.rb:5-10
 ems_path                            ems_cloud_controller.rb:21-22
