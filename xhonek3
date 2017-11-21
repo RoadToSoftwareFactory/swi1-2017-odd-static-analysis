@@ -1,7 +1,14 @@
-backup_restore_finished             cloud_volume_backup_controller.rb:57-73
+	backup_restore_finished             cloud_volume_backup_controller.rb:57-73
+	alive   called from cloud_volume_controller.rb
 update_finished                     floating_ip_controller.rb:211-229
+	alive	called from floating_ip_controller.rb
 show_props                          ems_common.rb:31-32
+	dead  "show_#{custom_display_method(display)}"
 edit_fields                         miq_ae_class_controller.rb:449-461
+	alive	called from miq_ae_class_controller.rb
 display_descendant_vms              mixins/generic_show_mixin.rb:148-153
+	dead  "display_#{nested_list_method(display)}"
 scanemss                            ems_common.rb:637-672
+	dead	 #     scanemss if params[:pressed] == "scan"
 reload_tasks                        miq_task_controller.rb:383-386
+	alive 	called from miq_task_controller.rb
