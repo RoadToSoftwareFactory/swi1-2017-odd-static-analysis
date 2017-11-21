@@ -1,0 +1,7 @@
+ems_path                            ems_container_controller.rb:34-35
+new_ems_path                        ems_physical_infra_controller.rb:25-26
+new_ems_path                        ems_datawarehouse_controller.rb:34-35
+detach_finished                     vm_cloud_controller.rb:132-156
+miq_report_schedule_run_now         report_controller/schedules.rb:93-117
+display_physical_servers_with_host  ems_physical_infra_controller.rb:49-50
+ab_create_update                    application_controller/buttons.rb:175-179

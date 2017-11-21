@@ -1,0 +1,7 @@
+rbac_user_add                       ops_controller/ops_rbac.rb:34-36
+add_vm_to_service                   vm_common.rb:686-700
+ems_path                            ems_network_controller.rb:21-23
+ems_path                            ems_storage_controller.rb:21-23
+profile_toggle                      application_controller/policy_support.rb:130-147
+miq_report_delete                   report_controller/reports.rb:82-106
+refresh_audit_log                   ops_controller/diagnostics.rb:192-200

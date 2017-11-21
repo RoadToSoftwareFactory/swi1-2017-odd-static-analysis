@@ -1,0 +1,7 @@
+process_orchestration_stacks        application_controller/ci_processing.rb:754-769
+build_ab_tree                       miq_ae_customization_controller.rb:497-498
+schedule_delete                     ops_controller/settings/schedules.rb:183-206
+rbac_user_copy                      ops_controller/ops_rbac.rb:39-52
+vmtypes                             application_controller/performance/options.rb:126-132
+process_configuration_jobs          application_controller/ci_processing.rb:774-789
+owner_changed?                      application_controller/ci_processing.rb:1071-1073

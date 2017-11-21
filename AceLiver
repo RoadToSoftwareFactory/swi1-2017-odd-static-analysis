@@ -1,0 +1,7 @@
+new_method                          miq_ae_class_controller.rb:1256-1261
+show_ad_hoc_metrics                 ems_common.rb:50-53
+old_dialogs_copy                    miq_ae_customization_controller/old_dialogs.rb:174-177
+dialog_add_tab                      miq_ae_customization_controller/dialogs.rb:632-634
+pp_choices                          application_controller.rb:49-50
+display_tree                        generic_object_definition_controller.rb:92-93
+add_host_finished                   host_aggregate_controller.rb:353-378

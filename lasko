@@ -1,0 +1,7 @@
+build_svcs_tree                     service_controller.rb:497-498
+backup_restore_finished             cloud_volume_controller.rb:499-517
+build_query_for_ok                  miq_task_controller.rb:306-307
+ldap_domain_add                     ops_controller/settings/ldap.rb:121-124
+configuration_manager_provider_tag  application_controller/tags.rb:31-32
+vm_migrate                          application_controller.rb:1942-1943
+display_all_vms                     mixins/generic_show_mixin.rb:156-157

@@ -1,0 +1,7 @@
+remove_host_finished                host_aggregate_controller.rb:448-473
+edit_instance                       miq_ae_class_controller.rb:474-487
+rbac_role_delete                    ops_controller/ops_rbac.rb:333-346
+customization_template_delete       pxe_controller/pxe_customization_templates.rb:21-23
+build_query_for_running             miq_task_controller.rb:323-325
+deletesnapsvms                      application_controller/ci_processing.rb:630-632
+old_dialogs_new                     miq_ae_customization_controller/old_dialogs.rb:166-171

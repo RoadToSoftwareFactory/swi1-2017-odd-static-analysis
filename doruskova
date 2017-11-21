@@ -1,0 +1,7 @@
+new_ems_path                        ems_container_controller.rb:38-39
+process_host_provide                mixins/actions/host_actions/misc.rb:126-132
+build_windows_image_grid            application_controller/miq_request_methods.rb:336-345
+deletedialogs                       miq_ae_customization_controller/old_dialogs.rb:5-6
+deletemethods                       miq_ae_class_controller.rb:1999-2017
+detach_finished                     cloud_volume_controller.rb:182-207
+ems_path                            configuration_job_controller.rb:19-20

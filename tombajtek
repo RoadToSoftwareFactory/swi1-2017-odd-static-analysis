@@ -1,0 +1,7 @@
+display_ems_clusters                ems_common.rb:68-69
+options4                            report_controller/pivot_options.rb:24-26
+dialog_copy                         miq_ae_customization_controller/dialogs.rb:113-128
+validate_before_save?               automation_manager_controller.rb:168-169
+validate_before_save?               provider_foreman_controller.rb:191-192
+old_dialogs_delete                  miq_ae_customization_controller/old_dialogs.rb:138-140
+miq_report_save                     report_controller/reports.rb:24-34

@@ -1,0 +1,7 @@
+rhn_organizations                   ops_controller/settings/rhn.rb:245-250
+service_reconfigure                 service_controller.rb:133-148
+new_ns                              miq_ae_class_controller.rb:2524-2526
+identify_vm                         mixins/vm_show_mixin.rb:67-68
+new_ems_path                        ems_middleware_controller.rb:29-30
+pm_refresh_workers                  ops_controller/diagnostics.rb:71-76
+chart_path                          services/charts_layout_service.rb:49-50

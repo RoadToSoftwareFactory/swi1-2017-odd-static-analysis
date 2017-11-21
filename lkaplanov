@@ -1,0 +1,7 @@
+accord_hash                         application_controller/feature.rb:15-18
+build_pxe_image_types_tree          pxe_controller/pxe_image_types.rb:190-191
+iso_datastore_delete                pxe_controller/iso_datastores.rb:133-135
+parent_entity_name                  mixins/middleware_deployments_mixin.rb:42-44
+ab_group_edit                       application_controller/buttons.rb:8-10
+dialog_res_discard                  miq_ae_customization_controller/dialogs.rb:265-301
+build_storage_pod_tree              storage_controller/storage_pod.rb:52-53
