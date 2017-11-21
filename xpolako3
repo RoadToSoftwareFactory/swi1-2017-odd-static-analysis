@@ -13,10 +13,8 @@ DEAD		ems_cinder_form_fields              ems_cinder_controller.rb:30-31
 DEAD		dialog_import_export_build_tree     miq_ae_customization_controller.rb:501-502
 - mrtva, nikde nevolana
 
-ALIVE		build_db_tree                       report_controller/dashboards.rb:487-488
-- volana v testech a mozna reference v app/controllers/report_controller.rb
-161:      self.x_active_tree   = "#{self.x_active_accord}_tree"
-191:    self.x_active_tree   = "#{params[:accord]}_tree" if params[:accord]
+DEAD		build_db_tree                       report_controller/dashboards.rb:487-488
+- volana v testech
 
 ALIVE	policy_delete				 miq_policy_controller/policies.rb:139-157
 - volana v	app/controllers/miq_policy_controller.rb ('policy_delete' => :policy_delete)
