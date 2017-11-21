@@ -9,4 +9,5 @@ ems_path                            ems_cloud_controller.rb:21-22
 wait_for_task_rx                    application_controller/wait_for_task.rb:66-76
 	dead - might be used by application_controller/wait_for_task.rb:57 - session[:async][:params][:action] = 'wait_for_task_rx'
 promote_server                      ops_controller/diagnostics.rb:627-642
+	alive - used by ops_controller.rb/diagnostics_region_center.rb
 ldap_domain_delete                  ops_controller/settings/ldap.rb:273-285
