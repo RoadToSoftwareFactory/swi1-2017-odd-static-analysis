@@ -1,7 +1,27 @@
 display_all_miq_templates           storage_controller.rb:23-24
+	dead
 build_infra_networking_tree         infra_networking_controller.rb:207-213
+	alive - app/controllers/application_controller/explorer.rb
+13:    method_name = "build_#{tree_symbol}_tree"
+
 vm_clone                            application_controller.rb:1935-1936
+	alive - called from spec/controllers/vm_infra_controller_spec.rb
+327:    post :x_button, :params => { :pressed => 'vm_clone', :id => vm_vmware.id }
+
 update_finished                     network_router_controller.rb:231-244
+	alive - called from app/controllers/network_router_controller.rb
+226:        initiate_wait_for_task(:task_id => task_id, :action => "update_finished")
+
 user_make_subarrays                 ops_controller/settings.rb:203-205
+	dead
+
 dialog_add_box                      miq_ae_customization_controller/dialogs.rb:627-629
+	alive - called from 
+			628:    assert_privileges("dialog_add_box")
+
+app/controllers/miq_ae_customization_controller.rb
+23:    'dialog_add_box'         => :dialog_add_box,
+
 build_configuration_manager_cs_filter_tree provider_foreman_controller.rb:224-225
+	alive - called from app/controllers/application_controller/explorer.rb
+13:    method_name = "build_#{tree_symbol}_tree"
