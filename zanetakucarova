@@ -1,7 +1,34 @@
 display_images                      mixins/generic_show_mixin.rb:172-173
+------alive ----> 133:      "display_#{nested_list_method(display)}" ( ag display_#{ )
+ 
+
+
 ab_button_edit                      application_controller/buttons.rb:183-185
+-----alive---> 
+app/controllers/catalog_controller.rb
+22:    'ab_button_edit'                => :ab_button_edit,
+
+používa zoznam CATALOG_X_BUTTON_ALLOWED_ACTIONS -> do generic_x_button
+
+
+
 rbac_role_add                       ops_controller/ops_rbac.rb:78-80
+
+----alive-----> to isté ako hore
+používa to OPS_X_BUTTON_ALLOWED_ACTIONS -> generic_x_button
+
+
 pxe_image_type_tree_select          pxe_controller/pxe_image_types.rb:5-11
-rhn_address_string                  ops_controller/settings/rhn.rb:47-50
+
+-----dead----> nájdená iba definícia, nenájdené cez žiadne ďalšie reťazce
+nájdené iba pxe_image_type_tree_edit....
+
+rhn_address_string 		    ops_controller/settings/rhn.rb:47-50
+----alive----> používaná vo webovom formulári rhn_edit_tab
+
 cid?                                mixins/compressed_ids.rb:16-17
+----dead---> iba v mixine
+
 ldap_region_delete                  ops_controller/settings/ldap.rb:98-118
+----dead---> 	nie je naviazaný controller a nie je ošetrené ani v retazcoch
+
