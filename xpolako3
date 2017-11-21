@@ -1,7 +1,22 @@
-ems_path                            ems_cinder_controller.rb:21-23
-create_finished                     cloud_network_controller.rb:75-91
-widget_generate_content             report_controller/widgets.rb:137-148
-ems_cinder_form_fields              ems_cinder_controller.rb:30-31
-dialog_import_export_build_tree     miq_ae_customization_controller.rb:501-502
-build_db_tree                       report_controller/dashboards.rb:487-488
-policy_delete                       miq_policy_controller/policies.rb:139-157
+ALIVE		ems_path                            ems_cinder_controller.rb:21-23
+- zije v mixine ems_common_angular.rb
+
+ALIVE		create_finished                     cloud_network_controller.rb:75-91
+- v te same tride volana metodou create
+
+ALIVE		widget_generate_content             report_controller/widgets.rb:137-148
+- volana v report_controller.rb
+
+DEAD		ems_cinder_form_fields              ems_cinder_controller.rb:30-31
+- definovana, ale nikde jinde nevolana
+
+DEAD		dialog_import_export_build_tree     miq_ae_customization_controller.rb:501-502
+- mrtva, nikde nevolana
+
+ALIVE		build_db_tree                       report_controller/dashboards.rb:487-488
+- volana v testech a mozna reference v app/controllers/report_controller.rb
+161:      self.x_active_tree   = "#{self.x_active_accord}_tree"
+191:    self.x_active_tree   = "#{params[:accord]}_tree" if params[:accord]
+
+ALIVE	policy_delete				 miq_policy_controller/policies.rb:139-157
+- volana v	app/controllers/miq_policy_controller.rb ('policy_delete' => :policy_delete)
