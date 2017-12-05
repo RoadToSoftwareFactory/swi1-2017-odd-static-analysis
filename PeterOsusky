@@ -1,7 +1,14 @@
 rhn_organizations                   ops_controller/settings/rhn.rb:245-250
+	dead
 service_reconfigure                 service_controller.rb:133-148
+	live app/controllers/service_controller.rb line 17 
 new_ns                              miq_ae_class_controller.rb:2524-2526
+	alive app/controllers/miq_ae_class_controller.rb line 61
 identify_vm                         mixins/vm_show_mixin.rb:67-68
+	dead
 new_ems_path                        ems_middleware_controller.rb:29-30
+	alive app/controllers/mixins/ems_common_angular.rb line 183
 pm_refresh_workers                  ops_controller/diagnostics.rb:71-76
+	alive app/controllers/ops_controller/diagnostics.rb line 72
 chart_path                          services/charts_layout_service.rb:49-50
+	dead
